@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+</head>
+<body>
+<div class="createAccountContainer">
+    <div class="createAccountContainer__card">
+        <div class="createAccountContainer__card__rightContainer">
+            <div class="createAccountContainer__card__rightContainer__tag">
+                <p class="createAccountContainer__card__rightContainer__tag__text">Connected</p>
+            </div>
+            <div class="createAccountContainer__card__rightContainer__formContainer">
+                <div class="createAccountContainer__card__rightContainer__formContainer__title">
+                    <h1>Create an account</h1>
+                    <p>To continue, fill out your personal info</p>
+                </div>
+                <div class="createAccountContainer__card__rightContainer__formContainer__inputsContainer">
+                    <form>
+                        <div class="createAccountContainer__card__rightContainer__formContainer__inputsContainer__input">
+                            <label for="fName">Full Name *</label>
+                            <input type="text" name="fName" id="fName" placeholder="Name Surname">
+                        </div>
+                        <div class="createAccountContainer__card__rightContainer__formContainer__inputsContainer__input">
+                            <label for="userName">Username *</label>
+                            <input type="text" name="userName" id="userName" placeholder="best_wizard421">
+                        </div>
+                        <div class="createAccountContainer__card__rightContainer__formContainer__inputsContainer__input">
+                            <label for="email">E-mail *</label>
+                            <input type="text" name="email" id="email" placeholder="email@email.com">
+                        </div>
+                        <div class="createAccountContainer__card__rightContainer__formContainer__inputsContainer__input">
+                            <label for="password">Password *</label>
+                            <input type="password" name="password" id="password" placeholder="**************" required>
+                        </div>
+                        <div class="createAccountContainer__card__rightContainer__formContainer__inputsContainer__input">
+                            <label for="repeatPassword">Repeat password *</label>
+                            <input type="password" name="repeatPassword" id="repeatPassword"
+                                   placeholder="************" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="createAccountContainer__card__rightContainer__formContainer__submitContainer">
+                    <p class="createAccountContainer__card__rightContainer__formContainer__submitContainer__text">By clicking Continue, you agree to our Terms and Conditions, confirm you have read our Policy
+                        Privacy Notice.</p>
+                    <button class="createAccountContainer__card__rightContainer__formContainer__submitContainer__button">Sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class="createAccountContainer__card__leftContainer">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIVFRUVFRUXFRcVFxcVFRYVFRUXFhUWFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0dHR8tLS0rLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLSs3LS0tLS03LS0tLTctNystLSsrK//AABEIAQMAwgMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA8EAABAwIDBgMHAgUDBQEAAAABAAIRAyEEEjEFBkFRYXEigZETMqGxwdHwQuEUI2KC8TNSckNTkrLCB//EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACIRAAICAgICAwEBAAAAAAAAAAABAhEDIRIxBBMiQVEUMv/aAAwDAQACEQMRAD8AtgUSNEqIApEjAQhbRg2hEQltCDgsAIBGGqJjNotpOa0gkn4BTKVQOAI0Kyknozi0rChRdojwFTg1Rdot8CIEZEN8XmrOkFBY3xeasaQUipmN+n/y2D+r6FYQlbXf5/8Apt7lYpOKE/RN0xdLeip6p8fYJdEtiVKSEZK9CPRzsIokEEQBIkaIrBCKSSjSSgwhoIpRpaMd5CMIBG1eeXDSgEGpyELMABE9LCaxFQAXKBjO7edFVp6KbsfFAHKTY6d1XbxyXsgpujSLb8VzSnxZ1KKlGjXAqPtD3SqrD4h2XUgo8Ri3RGvVH+lfhL0MqS6HEwp1AmLqJSIzQTJ49FIrVw1rnHQCfRNBuWwzio6Mdv8AVP5jByZ8ysjKud5NptrvziRAiDqqQKxJAeUdLVKa0cUprQqQdMEh0FGkg9Ua645EQaYEEeU8kRCryQKCKJxRpJWtGCSYSigVmEJBCUElmO8pQTYcltK88uPMCWUhiWszACpt5HEMlXSpd5P9IlSl0FdlBgsbmIL7xpzV+/EsDPCBcfFZag8AAiNFYUqjTTII7dOy42zsSLBrzCksoh7LahVbXwwHn81LFQsHvGfQLKgsh1KJa+TxScXSz03NJgEEFHVc4mSZHBAusurH0c2Ts5dj2Na9zWyQCRJ6FRwrDeGPb1I5quVmIhWZHmTJ1SgxFKwNjko8ybyo4PNHiwWhedGKx5ptFPRDaNSHxXPRKNYcWhRkUpucgcUSfaN5H1REt4E+YTCCPtkbgh+3+5BMILe2QOCO+pbAkNTrApjDjEtIDkuUWYMKi3pd/KPWyvVn95DOVvMqU+ho9mWp2blI7J2nUtdWLMNzUj+DaWxouVKzqborKOJ4ONhole1NUxmsEWM2Y5xj2kDtf1UnCYJrWxBQegt2DEODcrRwCQHpnH1QHBo4BNtrWXTj6OWfZhNtOms//kVAUnaDpqOP9R+ajKrFQQCdaE0Anmq2NCsGVCE4QiLVbiLYiEUJwNQLUOBrGyEmE4WpJC3BGsbLUISiERSOA1hX5okaCTgazvjU61ybCWFEI8ClymWpTqjRqQO5Wsw7Kz21jNUDkFIx28eGp+9VbPIGT6BZ/DbSbiHvqMnKDAJUsj0Ugtkh+KyGJH2QGMLv1AAKn2o4g3ulYfAuLA+91zKzodF2zEZzAhTadO11SUmNaBJhXeBeCNZS2Git2js32g8Jhw4n6qoq4CsxpMB0T7pv6FavEmFDwz5Mp1kcRXjTOQ1icxkQZMg90hbbfnYo/wBemOjwPmsSuuMuSs52qDBT1JskD8gXPwUdqlU7MJ4nwjtYu/8Akea68ekSYRddKA4nT80Qos1J0Gp6fdIqPn6DkrJihlyIuSUEQCpQKSgsECIhHKBKVhQjKglSgltBOt4zerDU/wBeY8m3VNit/v8At0vNx+gWGKMBcLZ1LGjRYrfHFP0eG/8AEfUqpxW0qtT36jndyfkopRrDKKQ09y0u6tJ3snOEi5WaeRy6WXRNi4Y0cOxjhqL8NbqWVpRMuyFXBe0E6ytDhnNFMDoqb2WVxbpxE6JNSlVNmkwfRRxuhpbJfsQ9xHAK0w2DFi0wUzg8GGtjUnVWNDDCJEz3StWzdIiYqobgi6hjMNAr5mBm5RVMOAi4gUilrUhUYWPEhwhcu2phclRw4Bxaeh/cEH1XZKuGWG3v2CcxqNuKggj+oSWnzu3+5VwunRPIrRhi2Lcvop1akS9tIfpAB/5HxP8AOTH9oSsLh81ZmYeEw89Q1ud//q4JzCmKbqztXlwB483kdy4D48F6EGc4xi3AeEadOJ5/bpfio0onOkygFZOhRSCCCY1AlBOUKDnuDGNLnOMAC5J5Ba3aW4rqGF9tUqfzdTTEZWjkXcSlc0jJGORIiilLJhBKCTKClYaJqMKRQwdSp7jCVc4PdR5vUcGjkLlccskV2d6i30Z+VIw+BqVPcYT1iy2uE2DRZ+nMebrqeXhosIXPLyl9Fo4H9mZ2Lus72jXVCIBmBdbLG0S5sDUaJvAAlpdzRMxozZZuTb6oW5rZGSUXok4fCSGuPAaFO1ANG2Pw/ZJLiNHJWHbCN6onQ5hKV72KtsHhoklVtCvLoiwP52VoKtlXGkhZOx95CrMQbp9mZxhoJJHyMfZCjsao9/iOQcz9EZKwJpEB+IGhVVtihnpua20i3Q8FsqO7rA67ibKSzYtEm4nulUHZvZE4m/YdZhe9rZijUygc3v0/8apHkqnblJ7MrHUyG02taTEAvguf38Rcf7oXoZ+zKTdGD8MpGK2PReBmpg3BXRGUl2SfF9HmgUwb3HlN0v8Ag3Xi8CT2mF6BxG6GFIjI0XJta5BH1VfidxaBpvYLe0Ilw1gaAfD0VVlFaOFfw74nKY+2qtNhbvV8U6KbDl4vNmgd+K7Lh9zcM0AZZAsB04zznirBtJtMBjGhoGgAgJ3mZlGyh3X3UpYMZm/zKxF6h4cwwcExvNiGljmOHA6yPjK0GIfDTf5rC7xYxsFrjEix+/RTjt2wvRzfEtAe4DmeM/FMOSqoMnukFVk9Cx7AgiRKFsqdZbDdAB2Si9IYxPspLxNnsiabC4wFIbgR+ojsk0sUKbxmBykXIvCFTHsvll3K11aEI0c+Wck6QeIxENIFgFkcBVf/ABbXOuJIA7rWv2fUqXtGuUG/mFV7Qw4pObUyxlNxCqm0ySSas0jqfPVBz4FuNlEG8tJ3hAmel1MwOFdUOYjKOSpx3oi3oXhwRAiZ5K+weEgEu/woNfG0sOLkT6/RVjt9GTHhhWhGiUrfRrsPUDdAAlHGSVR4ParKoBBSK7nNeOsJ2hK3s0PtLqQx0KrbV08lIZVkpQtEys4ASdFktubz5DlbrpbU+S0m1Xn2RI5LjO2se5hc4HxOcQDyA4ifgqraBBGto4/EvOYA5eRMH5K72bjXaEyf9rrOjjHAjsuR7O23UpVW1C5zg0gubmPibNxJmJ58F0qliRVYCJabOY79TXR4boqCe0aU3F0zXtqBwtry4qBWpwbm/wAuif2JV9q1r4iWgnlmi8dJUzE0AbE+aVsOjK7WqEAkDNHAEgxxiNSuV7412vLXMzDWQRBC6ttVjmEyQR5h3kVmq1BjveaD3AUMmfgdEMHNXZynOUlxXRcTu3h3/oyn+mypsXucf+nU8nfdaPkxZn40l0ZKESvDuzX5N9f2QT+2H6T9U/w0uA2yRZ8O6j3vMcVd4fFtePC4H5+YWVAa7UQeYUjC4d0+9f8ASdD5lc88MXtaLwzyj3s08pyhTLjDRJULD1CAA45jF+BU/D7W9iC4Nn5qMMTvZd5k1on1MC9ozGyaZjHaGD3EqtrbcL/HNuISWY1pvr0C7U0jllGXbL/DPpuILqTCRoco+cKXtDF5KZIEHgqXBPLnCGlXNbZjnDM7yCoqIPvZksVgHVZc8mBqJ48lkNq4hgeWtaIbbzW+eC6i9vFlRwd62+ELme2aRZVIixMg854d1XikrFjNuVF5u7iqlHE0mZmuFRrXDI4OgOmzo91wgy06WXTNpV5yxrz5LB7q7o1GObiKvhMS1hEFoPF3IxwWpxGIGcBun04mVKTH7LKi6Ym5EaqT7chVrKo1zAp12KHU9kpRY2y1/iZbBPwn4LJbb3Rbir03hjyZbmEtJ7jgVe4aqHOy89Oqu6WFMW5fnFZNoSS4vZyan/8AmmNzjN7Mt4kPm08AQug7L2AGCHu0jwtNh0laCgHaEeiWWplNoSVS7E0GBogCANAEhzoPdCrUjmO0/NRWPkxcpTC9q4EVacEXF2lYetRgkHUGF0d2ixO8NDLVJH6rrm8uHx5HV4eT5cWVXs0h7E6Ckly8+z0qGMhQT0okbNSMW1SKVUhB+AqAxlk8gQT6JAaR7wjuvTtHklpQxk2nyP0Uw4lsQ7881RJxtYj91qNRJ9lRY7MWugngS4eivMI1kSyIWfp1QdDlPLgkYnEVQQWuLRzb8yErx29DrK12bnZ7outHhMWYg38lkMDVPs2kuzEjUCJUqltAj/JVVaRGT5M1Jw1FxLjTGY2JFiehjVMN2bh2ODxRbmGhIkjtOigUMfPb4p04n8Ca2JxQrad/NYzamKax2otc/nJafEPJBnsPqs5tnZAqaCTC1FMbSeyPhNsU3zkcCRr+ckNobbdTouqgTEADhJMXVPhdhPovL4MQQJ0MxCttjBuZ1OoA5pNwRI56d0tM9WM4uDaF7t4vEVy1xOQAzYQXDiF1TDE5QT+eSp9nYFjbgR0GiuW1gBzVYxPJ8jJylodDieITbwfw/ZN/xQn3fgnGVGkaHyRcDnsq674Nrd09hGHVO1sLeeHVLY2P8hLwDysez81lt5qZLx2WiqT18iq7bmEz08w1b8kmaPKDRXx58ZpmReyE1CkvB5j1n5JEryHE9mxrJ0QSs55okaRjO4OsXS4AF54T7toJJ8tFYsxAgNqDMTMCASG8z+yyAzN0JI6GHD7qO7FPaSQ909z9V6Xrs8aTaN27Z1I8I7GPgmKmxhwefMArHYXbdRrsx8R5nUzzK0GB3lY6A4w468vVK4SRlMjbQpimYLgSOA1HdR2bQy2MkfnFX2Jw1Gt4uJ/U3X91V1dg1BdhDx6H0KeDQspSNPseuHU2kaKRUmdFXbuUSxuRwLSDMHX87wrhzh+X/b5p+wxYWHcfy/wCt8C4ctOJ0+KpWuLrCSOPL4WCl+I6EBMkFknH1wCYuemiZY/iZHTikVKrW9Tz1KYdUJkadeSYCJ78Q0sLXQbaarPezaytbi0EeR/cKcHecC5WR25vLTZWaGDOWyHkGAJiw5rFscqOj4DaJ0uOtj8FcUNof0+cfllzfY+9lGpacht7w+vktfg9oTBBBBCZMjOJfPxpH6bHsjOOA1ae8KrGKMaA+eifp46NQjZPiyy9uDdv0SPadUxSxOY+6fKCPRSMs6fnkUOxegs17ynLERzQFID8+icQoNmK2nhg2obRyvYyoLxC0G8TTmBH3VE5wOtu32XleRBKbPZ8eblBDCCcydUahwZeznrnKHiWAqUUzUavVTPJaK17SEmVLcElzANB4vUDy4n4KqZKUCRs+s+nBDiAbhsZi7s362HdafZ28LNHHK7iJn1eLeixL3OvJN9bm/3T+Bw2YyTDRqbcImJsABBJNgPIEOCYqbR1HA1c9xyUjKBrf5fuqzd2u11LwkEaSJ4d7+Z+GisxTlBRoZMIvJ0/ZOFriImOySXcAPzqmnuJ0TGHC0DyTT3c9EwaxHbgq3aO0HRDbdVrHSG9v4l7qVRtA+JsZgNYiSB1+y52aTuS3eAJY8u1Dhfn3SmbBZVcXERJMwYWs6Y4k+zDUcM4rotIPo06IaTYQevh4+astn7uUKdwQD1mTPVWVHZDY8N/OVgyjBdEPC7SdGlyrjZocfePbtyUbD7IOaSIjRXuGoADqicuSkS8MyApTAExTCkNCNnOLSHNRyicEUAotvt8MxI/LrNvbyWq22PByWXcedj8F5/lrZ6niP4jMoJUdD8fsguSjs2c/KbeEolE4r0jyiK9NKRUCZITmFUqIMlxhoEnn0AHM9fojxlUxkbDQNWj1DZ4wTJ5mUpxy6cPi86ny0/yhh6ehImTDW6ZuBJPBovfp3IZMRo2e4zD7Hxc/UfZaV7eAWY3WxUEszSBq6wzO4iODRoAOAWpRERGezgmy2FKcE04LBGHMkKFicJIVgg0oWMmU2FwLs1/dGnNXFHDaDT6qS2mDCfazRFMf2PoPD0BoVMZhwIIso7XGdFYUmI2K5Mfo0zN1JY2UyKoGqWyr0StknslMbCdbdJoiVIywiIIhNvqJ10qO8IgK3a1cBhnj2+qy1czpr5XHktLtnNkNllajjK4fKez0vEWhuSiSieiC5Tts5z7S3MFFPL0UFjyNFIZVB6FevKFHjKVgqVDqjpPvPL58EiqZ1R0Te/f04lKPY5A1Put+J5fnDyTntIGafE8QP6WaWHCY9B1TGfMRyH4fM/VTsAxr6wBMy6AIkQLDThZZIDNFupsTNFUuiNIPzWwbh40J807g6Ia0NsABoNFMZRbzRROyvLCm3tPJW/8IOaW3ATxWphszz2ph8jRaetsm2qra+AI/ZAKaKqniHNOkqZRx4JIKM4EwTCjDBO1AKFh0WoxTZun2Y6fdVbhNlvKvcJszLBgRx78FtgYMJSLve79irehThIpU+nnCkNCNCNjjQlwkgoSiKE5MvTrk24hMArNr0nFhy+lj81jKrYJmR3XQahVRtDZTanQ/nBQz4ee0dXj5+GmZdrEFcjYbv8AcEa5P55Hb/Rj/ThThFtEUqftnCFj51Drz14qtcV60ZclZ5JMpU8wlt7Xbx7hJcYBHqDr2TGHqQ4GeKn4gZh4ong4aHupNUyqI1NwEd5620Ws3PwpdVByAAcTr8CJ85WTLTmg8OXEd10Tcig4NnIG8ja6yM2bKg0clPoM5WTOGbHfop9Np7JibAyl5p4Uwg1qdARAJyNj90h9AH8BSyOaMMHMoGI7sEO/SyJmFHFoUyLfdIslaGTENogcE41vZE4hJD0ph8NRhNNKUXIoDFkpJKSHpFQeSwKHHPTLikSgSsmZoDnJtxRuSSmsAcoIkaJjhe2WlzDxH6SOHdZslaeuwgZqZzNOoN/RZ7GtGYltgeHJSxS+irRHVth2ywFt+YP0VW1k6K+3awD6jsgHHSb+fJUyGTok7E2a2q8QJiJB4dl1LZ2DygCICh7E2O2kNBm4/wCVf0mrQi6FchyhSUym2EwxPsIVBB7LKcB6Jprk4EphLj1PyTcjgPVPEpmolCgEc0DUA1t0SM3KfzqkPZKDGHDVCNruSr6ZyuKkZ0tmJObmk501nSTVRMPGpyRNqFMZ0M6Uw66oklyQXAoF6xhYKCQ1yWiKw0ESCJjhlKzyBpBt6fdQ9tMGUGLyEEFGH+ir6Imx2g1IPJde2DhWMYC1jQSBJAufNEgrvsRl5ST4QQVEKP0wn2hBBZgFQnIRoIGYQTdRBBAyCKaaUaCDGIW0OCUDoggkHfQ8E3VQQWYA0TtEEEABNGqd4IILGAlBBBFAYpBBBEB//9k="
+                 alt="Funny Cat">
+        </div>
+        <div class="createAccountContainer__card__tag">
+            <h2 class="createAccountContainer__card__tag__title">PRO</h2>
+        </div>
+    </div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
