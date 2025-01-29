@@ -41,7 +41,7 @@ body {
   font-family: "open sans", sans-serif;
 
   .createAccountContainer {
-    //border: solid 1px blue;
+    //order: solid 4px blue;
     position: relative;
     display: flex;
     align-items: center;
@@ -56,6 +56,9 @@ body {
       position: relative;
       border-radius: 20px;
       height: 80%;
+      -webkit-box-shadow: 0px 0px 70px -13px rgba(0,0,0,0.25);
+      -moz-box-shadow: 0px 0px 70px -13px rgba(0,0,0,0.25);
+      box-shadow: 0px 0px 70px -13px rgba(0,0,0,0.25);
 
       &__rightContainer {
         //border: 2px solid yellow;
